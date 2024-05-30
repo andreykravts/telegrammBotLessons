@@ -1,0 +1,15 @@
+[Unit]
+Description=MYBOT_REPEAT_AFTER_ME
+After=network.target
+
+[Service]
+Type=simple
+WorkingDirectory=/home/peps
+ExecStart=python3 /home/peps/mybot/bot.py
+KillMode=process
+Restart=on-failure
+RestartSec=10yc
+
+
+[Install]
+WantedBy=multi-user.target
