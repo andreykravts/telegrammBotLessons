@@ -3,9 +3,7 @@ import os
 import random
 import telebot
 import time
-
 from telebot import types
-
 import config
 import utils
 from SQLighter import SQLighter
