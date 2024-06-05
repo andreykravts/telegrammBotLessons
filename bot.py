@@ -2,8 +2,7 @@
 import config
 import telebot
 import cherrypy
-
-from WebhookServer import WebhookServer
+import WebhookServer
 
 WEBHOOK_HOST = ' 172.19.205.32'
 WEBHOOK_PORT = 443  # 443, 80, 88 или 8443 (порт должен быть открыт!)
