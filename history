@@ -1,0 +1,122 @@
+
+    1  openssl genrsa -out webhook_pkey.pem 2048
+    2  openssl req -new -x509 -days 3650 -key webhook_pkey.pem -out webhook_cert.pem
+    3
+    4  mkdir mybot
+    5  cd mybot
+    6  python3.7 -m venv venv
+    7  python3.10 -m venv venv
+    8  apt install python3.10-venv
+    9  source venv/bin/activate
+   10  apt install python3.10-venv venv
+   11  python3.10-venv venv
+   12  apt install python 3.10
+   13  apt update
+   14  atp upgrade
+   15  apt upgrade
+   16  apt install python3
+   17  apt install python3.7
+   18  python3.7 -m venv venv
+   19  python3 -m venv venv
+   20  ll
+   21  source venv/bin/activate
+   22  pip install pytelegrambotapi
+   23  deactivate
+   24  cd ..
+   25  ll
+   26  cp webhook_cert.pem webhook_pkey.pem /mybot
+   27  cp webhook_cert.pem webhook_pkey.pem /mybot/
+   28  cp webhook_cert.pem webhook_pkey.pem ./mybot/
+   29  ll
+   30  chown ubuntu:ubuntu mybot
+   31  ll
+   32  cd mybot/
+   33  ll
+   34  python3 bot.py
+   35  ll
+   36  python3 bot.py
+   37  chown ubuntu:ubuntu venv
+   38  ll
+   39  cd mybot
+   40  python3 bot.py
+   41  pip install telebot
+   42  apt install python3-pip
+   43  pip install telebot
+   44  python3 bot.py
+   45  pip install cherypy
+   46  pip install cherrypy
+   47  python3 bot.py
+   48  systemctl status apache2
+   49  systemctl stop apache2
+   50  python3 bot.py
+   51  cd mybot/
+   52  yum install telnet
+   53  apt install telnet
+   54  telnet 54.147.235.67 80
+   55  telnet 0.0.0.0 80
+   56  telnet 0.0.0.0 443
+   57  telnet 0.0.0.0 22
+   58  telnet 0.0.0.0 443
+   59  telnet 54.147.235.67 80
+   60  restart
+   61  telnet 54.147.235.67 80
+   62  cd mybot/
+   63  python3 bot.py
+   64  systemctl stop apache2
+   65  python3 bot.py
+   66  systemctl stop apache2
+   67  python3 bot.py
+   68  cd mybot/
+   69  python3 bot.py
+   70  ipcofig
+   71  ifconfig
+   72  apt install net-tools
+   73  ifconfig
+   74  python3 bot.py
+   75  clear
+   76  openssl genrsa -out webhook_pkey.pem 2048
+   77  openssl req -new -x509 -days 3650 -key webhook_pkey.pem -out webhook_cert.pem
+   78  python3 bot.py
+   79  openssl genrsa -out webhook_pkey.pem 2048
+   80  openssl req -new -x509 -days 3650 -key webhook_pkey.pem -out webhook_cert.pem
+   81  python3 bot.py
+   82  openssl genrsa -out webhook_pkey.pem 2048
+   83  openssl req -new -x509 -days 3650 -key webhook_pkey.pem -out webhook_cert.pem
+   84  ll
+   85  python3 bot.py
+   86  vi bot.py
+   87  python3 bot.py
+   88  vi bot.py
+   89  python3 bot.py
+   90  pip install ndg-httpsclient
+   91  pip install pyopenssl
+   92  pip install pyasn1
+   93  pip install ndg-httpsclient
+   94  pip install pyasn1
+   95  pip install pyopenssl
+   96  apt update
+   97  apt upgrade
+   98  apt install openssl2
+   99  apt install openssl3
+  100  apt install opensal3
+  101  apt install openssl3
+  102  apt install openssl
+  103  python3 -m pip install cherrypy
+  104  ll
+  105  chown ubuntu:ubuntu *
+  106  ll
+  107  chmod 777 *
+  108  ll
+  109  python3 bot.py
+  110  vi bot.py
+  111  python3 bot.py
+  112  vi bot.py
+  113  python3 bot.py
+  114  vi bot.py
+  115  python3 bot.py
+  116  vi bot.py
+  117  python3 bot.py
+  118  vi bot.py
+  119  python3 bot.py
+  120  clear
+  121  history
