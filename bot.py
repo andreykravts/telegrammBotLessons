@@ -37,12 +37,6 @@ bot = telebot.TeleBot(config.token)
 def echo_message(message):
     bot.reply_to(message, message.text)
 
-#
-# @bot.message_handler(content_types=["text"])
-# def repeat_all_messages(message): # Название функции не играет никакой роли
-#     bot.send_message(message.chat.id, message.text)
-
-
 # Снимаем вебхук перед повторной установкой (избавляет от некоторых проблем)
 bot.remove_webhook()
 
