@@ -1,15 +1,15 @@
 [Unit]
-Description=MYBOT_REPEAT_AFTER_ME
+Description=Telegram Bot Service, Repeat after me
 After=network.target
 
 [Service]
 Type=simple
-WorkingDirectory=/home/peps
-ExecStart=python3 /home/peps/mybot/bot.py
+WorkingDirectory=/home/ubuntu/tgbot
+ExecStart=/bin/bash -c 'source /home/ubuntu/tgbot/venv/bin/activate && exec python3 /home/ubuntu/tgbot/bot.py'
 KillMode=process
 Restart=on-failure
-RestartSec=10yc
-
+RestartSec=100yc
+Environment=PATH=/home/ubuntu/tgbot/venv/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
 
 [Install]
 WantedBy=multi-user.target

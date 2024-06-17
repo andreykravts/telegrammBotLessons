@@ -1,0 +1,19 @@
+set security groups open ports
+
+#use Public IPv4 DNS of EC2 ec2-184-72-163-59.compute-1.amazonaws.com
+#run next commands to open FW and the next option must be set off:
+#SELinux or Other Security Software:
+#Cause: Security software like SELinux might be restricting socket creation.
+#Solution: Temporarily disable SELinux to check if it’s the cause. You can disable it by running setenforce 0 for testing purposes.
+
+apt install selinux-utils
+setenforce 0
+
+FW:
+
+sudo ufw status
+sudo ufw start
+sudo ufw enable
+sudo ufw status
+sudo ufw allow 443
+sudo ufw allow 22

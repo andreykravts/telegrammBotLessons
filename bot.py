@@ -4,12 +4,12 @@ import telebot
 import cherrypy
 
 
-WEBHOOK_HOST = '54.147.235.67'
+WEBHOOK_HOST = 'ec2-184-72-163-59.compute-1.amazonaws.com'
 WEBHOOK_PORT = 443  # 443, 80, 88 или 8443 (порт должен быть открыт!)
-WEBHOOK_LISTEN = '0.0.0.0'  # На некоторых серверах придется указывать такой же IP, что и выше
+WEBHOOK_LISTEN = 'ec2-184-72-163-59.compute-1.amazonaws.com'  # На некоторых серверах придется указывать такой же IP, что и выше
 
-WEBHOOK_SSL_CERT = './webhook_cert.pem'  # Путь к сертификату
-WEBHOOK_SSL_PRIV = './webhook_pkey.pem'  # Путь к приватному ключу
+WEBHOOK_SSL_CERT = '/home/ubuntu/tgbot/webhook_cert.pem'  # Путь к сертификату
+WEBHOOK_SSL_PRIV = '/home/ubuntu/tgbot/webhook_pkey.pem'  # Путь к приватному ключу
 
 WEBHOOK_URL_BASE = "https://%s:%s" % (WEBHOOK_HOST, WEBHOOK_PORT)
 WEBHOOK_URL_PATH = "/%s/" % (config.token)
