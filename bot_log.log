@@ -1,0 +1,48 @@
+[18.06.2024 17:21:34] bot.py:51 INFO - [VK] Started scanning for new posts
+[18.06.2024 17:21:34] bot.py:57 INFO - Last ID (VK) = 1490785
+[18.06.2024 17:21:35] bot.py:82 INFO - New last_id (VK) is 1490785
+[18.06.2024 17:21:35] bot.py:86 INFO - [VK] Finished scanning
+[18.06.2024 17:21:35] bot.py:103 INFO - [App] Script went to sleep.
+[18.06.2024 17:22:35] bot.py:51 INFO - [VK] Started scanning for new posts
+[18.06.2024 17:22:35] bot.py:57 INFO - Last ID (VK) = 1490785
+[18.06.2024 17:22:36] bot.py:82 INFO - New last_id (VK) is 1490785
+[18.06.2024 17:22:36] bot.py:86 INFO - [VK] Finished scanning
+[18.06.2024 17:22:36] bot.py:103 INFO - [App] Script went to sleep.
+[18.06.2024 17:23:36] bot.py:51 INFO - [VK] Started scanning for new posts
+[18.06.2024 17:23:36] bot.py:57 INFO - Last ID (VK) = 1490785
+[18.06.2024 17:23:36] bot.py:82 INFO - New last_id (VK) is 1490785
+[18.06.2024 17:23:36] bot.py:86 INFO - [VK] Finished scanning
+[18.06.2024 17:23:36] bot.py:103 INFO - [App] Script went to sleep.
+[18.06.2024 17:24:36] bot.py:51 INFO - [VK] Started scanning for new posts
+[18.06.2024 17:24:36] bot.py:57 INFO - Last ID (VK) = 1490785
+[18.06.2024 17:24:37] bot.py:82 INFO - New last_id (VK) is 1490785
+[18.06.2024 17:24:37] bot.py:86 INFO - [VK] Finished scanning
+[18.06.2024 17:24:37] bot.py:103 INFO - [App] Script went to sleep.
+[18.06.2024 17:24:45] bot.py:51 INFO - [VK] Started scanning for new posts
+[18.06.2024 17:24:45] bot.py:57 INFO - Last ID (VK) = 1488643
+[18.06.2024 17:24:46] bot.py:84 ERROR - Exception of type ApiTelegramException in check_new_post(): A request to the Telegram API was unsuccessful. Error code: 400. Description: Bad Request: chat not found
+[18.06.2024 17:24:46] bot.py:86 INFO - [VK] Finished scanning
+[18.06.2024 17:24:46] bot.py:103 INFO - [App] Script went to sleep.
+[18.06.2024 17:25:25] bot.py:51 INFO - [VK] Started scanning for new posts
+[18.06.2024 17:25:39] bot.py:57 INFO - Last ID (VK) = 1488643
+[18.06.2024 17:26:40] bot.py:84 ERROR - Exception of type ApiTelegramException in check_new_post(): A request to the Telegram API was unsuccessful. Error code: 400. Description: Bad Request: chat not found
+[18.06.2024 17:26:42] bot.py:86 INFO - [VK] Finished scanning
+[18.06.2024 17:26:46] bot.py:103 INFO - [App] Script went to sleep.
+[18.06.2024 17:27:39] bot.py:51 INFO - [VK] Started scanning for new posts
+[18.06.2024 17:27:40] bot.py:57 INFO - Last ID (VK) = 1488643
+[20.06.2024 15:54:39] bot.py:51 INFO - [VK] Started scanning for new posts
+[20.06.2024 15:54:57] bot.py:57 INFO - Last ID (VK) = 1488643
+[20.06.2024 16:00:04] bot.py:84 ERROR - Exception of type ApiTelegramException in check_new_post(): A request to the Telegram API was unsuccessful. Error code: 400. Description: Bad Request: chat not found
+[20.06.2024 16:00:06] bot.py:86 INFO - [VK] Finished scanning
+[20.06.2024 16:00:38] bot.py:103 INFO - [App] Script went to sleep.
+[20.06.2024 16:01:14] bot.py:51 INFO - [VK] Started scanning for new posts
+[20.06.2024 16:01:14] bot.py:57 INFO - Last ID (VK) = 1488643
+[20.06.2024 16:03:00] bot.py:51 INFO - [VK] Started scanning for new posts
+[20.06.2024 16:03:01] bot.py:57 INFO - Last ID (VK) = 1488643
+[20.06.2024 16:12:00] bot.py:51 INFO - [VK] Started scanning for new posts
+[20.06.2024 16:12:01] bot.py:57 INFO - Last ID (VK) = 1488643
+[20.06.2024 16:12:29] bot.py:51 INFO - [VK] Started scanning for new posts
+[20.06.2024 16:12:29] bot.py:57 INFO - Last ID (VK) = 1488643
+[20.06.2024 16:12:37] bot.py:82 INFO - New last_id (VK) is 1491249
+[20.06.2024 16:12:37] bot.py:86 INFO - [VK] Finished scanning
+[20.06.2024 16:12:37] bot.py:103 INFO - [App] Script went to sleep.
